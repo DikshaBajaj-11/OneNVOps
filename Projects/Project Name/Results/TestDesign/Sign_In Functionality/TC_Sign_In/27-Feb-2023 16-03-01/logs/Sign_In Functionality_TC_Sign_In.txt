@@ -1,0 +1,84 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine :  2.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  19
+java.home                                  :  C:\Program Files\Java\jdk-19
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Mon Feb 27 16:03:01 IST 2023
+
+Scenario         :  [Sign_In Functionality]
+TestCase         :  [TC_Sign_In]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input:TestData0:Url  |  Condition:  | @27-Feb-2023 16:03:04.004
+[DONE]   | Opened Url: https://onenvops-ui-new.azurewebsites.net/master-data
+
+
+===================================================================================================
+
+Step:2  |  Object:Sign In  |  Action:Click  |  Input:  |  Condition:  | @27-Feb-2023 16:03:07.007
+[DONE]   | Clicking on Sign In
+
+
+===================================================================================================
+
+Step:3  |  Object:someone@example.com  |  Action:waitForElementToBePresent  |  Input:  |  Condition:  | @27-Feb-2023 16:03:08.008
+[PASS]   | 'someone@example.com' Element Present in the stipulated time
+
+
+===================================================================================================
+
+Step:4  |  Object:someone@example.com  |  Action:Set  |  Input:TestData0:UserName  |  Condition:  | @27-Feb-2023 16:03:08.008
+[DONE]   | Entered Text 'diksha.bajaj@newvision-software.com' on 'someone@example.com'
+
+
+===================================================================================================
+
+Step:5  |  Object:Next  |  Action:Click  |  Input:  |  Condition:  | @27-Feb-2023 16:03:09.009
+[DONE]   | Clicking on Next
+
+
+===================================================================================================
+
+Step:6  |  Object:Password  |  Action:waitForElementToBePresent  |  Input:  |  Condition:  | @27-Feb-2023 16:03:09.009
+[PASS]   | 'Password' Element Present in the stipulated time
+
+
+===================================================================================================
+
+Step:7  |  Object:Password  |  Action:Set  |  Input:@Indorelost@11  |  Condition:  | @27-Feb-2023 16:03:09.009
+[FAIL]   | Seems Like the Element [Password] is Not Visible or hidden at the moment
+
+
+===================================================================================================
+
+Step:8  |  Object:Sign in  |  Action:Click  |  Input:  |  Condition:  | @27-Feb-2023 16:03:10.010
+[FAIL]   | org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=110.0.5481.178)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DIKSHAB', ip: '192.168.62.151', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\DIKSHA~1.BAJ\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:59500}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8a0b7d9e9009ef784d48c4f0c9e1b891
+
+---------------------------------------------------
+Testcase Name        : Sign_In Functionality:TC_Sign_In
+Executed Steps       : 8
+Passed Steps         : 6
+Failed Steps         : 2
+Time Taken           : 00:00:09
+---------------------------------------------------
+

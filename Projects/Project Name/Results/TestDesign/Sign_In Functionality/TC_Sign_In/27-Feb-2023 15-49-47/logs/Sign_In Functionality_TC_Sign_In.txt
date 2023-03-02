@@ -1,0 +1,72 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine :  2.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  19
+java.home                                  :  C:\Program Files\Java\jdk-19
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Mon Feb 27 15:49:47 IST 2023
+
+Scenario         :  [Sign_In Functionality]
+TestCase         :  [TC_Sign_In]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input:TestData0:Url  |  Condition:  | @27-Feb-2023 15:49:51.051
+[DONE]   | Opened Url: https://onenvops-ui-new.azurewebsites.net/master-data
+
+
+===================================================================================================
+
+Step:2  |  Object:Sign In  |  Action:Click  |  Input:  |  Condition:  | @27-Feb-2023 15:49:53.053
+[DONE]   | Clicking on Sign In
+
+
+===================================================================================================
+
+Step:3  |  Object:someone@example.com  |  Action:Set  |  Input:TestData0:UserName  |  Condition:  | @27-Feb-2023 15:49:54.054
+[DONE]   | Entered Text 'diksha.bajaj@newvision-software.com' on 'someone@example.com'
+
+
+===================================================================================================
+
+Step:4  |  Object:Next  |  Action:Click  |  Input:  |  Condition:  | @27-Feb-2023 15:49:54.054
+[DONE]   | Clicking on Next
+
+
+===================================================================================================
+
+Step:5  |  Object:Password  |  Action:Set  |  Input:TestData0:Password  |  Condition:  | @27-Feb-2023 15:49:54.054
+[FAIL]   | Seems Like the Element [Password] is Not Visible or hidden at the moment
+
+
+===================================================================================================
+
+Step:6  |  Object:Sign in  |  Action:Click  |  Input:  |  Condition:  | @27-Feb-2023 15:49:55.055
+[FAIL]   | org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=110.0.5481.178)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DIKSHAB', ip: '192.168.62.151', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\DIKSHA~1.BAJ\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:58727}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 28c37d9d6b8c1ea99fa86bd813693782
+
+---------------------------------------------------
+Testcase Name        : Sign_In Functionality:TC_Sign_In
+Executed Steps       : 6
+Passed Steps         : 4
+Failed Steps         : 2
+Time Taken           : 00:00:08
+---------------------------------------------------
+

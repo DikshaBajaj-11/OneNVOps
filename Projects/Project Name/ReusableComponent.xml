@@ -1,0 +1,7 @@
+<Root ref="Project Name" type="RC">
+<Folder ref="NewGroup">
+<Scenario ref="Base">
+<TestCase exeType="Executable" ref="Browser_Pause"/>
+</Scenario>
+</Folder>
+</Root>

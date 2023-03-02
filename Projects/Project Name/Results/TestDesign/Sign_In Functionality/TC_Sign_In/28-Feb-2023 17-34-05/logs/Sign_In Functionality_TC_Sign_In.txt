@@ -1,0 +1,77 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine :  2.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  19
+java.home                                  :  C:\Program Files\Java\jdk-19
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Tue Feb 28 17:34:05 IST 2023
+
+Scenario         :  [Sign_In Functionality]
+TestCase         :  [TC_Sign_In]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input:Login_Data:Url  |  Condition:  | @28-Feb-2023 17:34:26.026
+[DONE]   | Opened Url: https://onenvops-ui-new.azurewebsites.net/master-data
+
+
+===================================================================================================
+
+Step:2  |  Object:Sign In  |  Action:Click  |  Input:  |  Condition:  | @28-Feb-2023 17:34:27.027
+[DONE]   | Clicking on Sign In
+
+
+===================================================================================================
+
+Step:3  |  Object:UserName  |  Action:waitForElementToBePresent  |  Input:  |  Condition:  | @28-Feb-2023 17:34:28.028
+[PASS]   | 'UserName' Element Present in the stipulated time
+
+
+===================================================================================================
+
+Step:4  |  Object:UserName  |  Action:Set  |  Input:Login_Data:UserName  |  Condition:  | @28-Feb-2023 17:34:29.029
+[DONE]   | Entered Text 'diksha.bajaj@newvision-software.com' on 'UserName'
+
+
+===================================================================================================
+
+Step:5  |  Object:Next  |  Action:Click  |  Input:  |  Condition:  | @28-Feb-2023 17:34:29.029
+[DONE]   | Clicking on Next
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input:Login_Data:PauseTime  |  Condition:  | @28-Feb-2023 17:34:31.031
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:8  |  Object:Password  |  Action:Set  |  Input:Login_Data:Password  |  Condition:  | @28-Feb-2023 17:34:31.031
+[DONE]   | Entered Text 'Indorelost@11' on 'Password'
+
+
+===================================================================================================
+
+Step:9  |  Object:Sign in  |  Action:Click  |  Input:  |  Condition:  | @28-Feb-2023 17:34:33.033
+[DONE]   | Clicking on Sign in
+
+---------------------------------------------------
+Testcase Name        : Sign_In Functionality:TC_Sign_In
+Executed Steps       : 8
+Passed Steps         : 8
+Failed Steps         : 0
+Time Taken           : 00:00:27
+---------------------------------------------------
+

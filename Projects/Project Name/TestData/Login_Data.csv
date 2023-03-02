@@ -1,0 +1,2 @@
+Scenario,Flow,Iteration,SubIteration,UserName,Password,Url,PauseTime
+Sign_In Functionality,TC_Sign_In,1,1,diksha.bajaj@newvision-software.com,Indorelost@11,https://onenvops-ui-new.azurewebsites.net/master-data,2000

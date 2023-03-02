@@ -1,0 +1,77 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine :  2.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  19
+java.home                                  :  C:\Program Files\Java\jdk-19
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Mon Feb 27 16:14:41 IST 2023
+
+Scenario         :  [Sign_In Functionality]
+TestCase         :  [TC_Sign_In]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input:TestData0:Url  |  Condition:  | @27-Feb-2023 16:14:46.046
+[DONE]   | Opened Url: https://onenvops-ui-new.azurewebsites.net/master-data
+
+
+===================================================================================================
+
+Step:2  |  Object:Sign In  |  Action:Click  |  Input:  |  Condition:  | @27-Feb-2023 16:14:48.048
+[DONE]   | Clicking on Sign In
+
+
+===================================================================================================
+
+Step:3  |  Object:someone@example.com  |  Action:waitForElementToBePresent  |  Input:  |  Condition:  | @27-Feb-2023 16:14:49.049
+[PASS]   | 'someone@example.com' Element Present in the stipulated time
+
+
+===================================================================================================
+
+Step:4  |  Object:someone@example.com  |  Action:Set  |  Input:TestData0:UserName  |  Condition:  | @27-Feb-2023 16:14:50.050
+[DONE]   | Entered Text 'diksha.bajaj@newvision-software.com' on 'someone@example.com'
+
+
+===================================================================================================
+
+Step:5  |  Object:Next  |  Action:Click  |  Input:  |  Condition:  | @27-Feb-2023 16:14:50.050
+[DONE]   | Clicking on Next
+
+
+===================================================================================================
+
+Step:6  |  Object:Password  |  Action:waitForElementToBePresent  |  Input:  |  Condition:  | @27-Feb-2023 16:14:50.050
+[PASS]   | 'Password' Element Present in the stipulated time
+
+
+===================================================================================================
+
+Step:7  |  Object:Password  |  Action:Set  |  Input:TestData0:Password  |  Condition:  | @27-Feb-2023 16:14:50.050
+[FAIL]   | Seems Like the Element [Password] is Not Visible or hidden at the moment
+
+
+===================================================================================================
+
+Step:8  |  Object:Sign in  |  Action:Click  |  Input:  |  Condition:  | @27-Feb-2023 16:14:51.051
+[DONE]   | Clicking on Sign in
+
+---------------------------------------------------
+Testcase Name        : Sign_In Functionality:TC_Sign_In
+Executed Steps       : 8
+Passed Steps         : 7
+Failed Steps         : 1
+Time Taken           : 00:00:09
+---------------------------------------------------
+

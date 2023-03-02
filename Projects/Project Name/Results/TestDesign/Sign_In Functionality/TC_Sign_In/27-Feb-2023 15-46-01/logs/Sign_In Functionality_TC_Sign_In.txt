@@ -1,0 +1,47 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine :  2.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  19
+java.home                                  :  C:\Program Files\Java\jdk-19
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Mon Feb 27 15:46:01 IST 2023
+
+Scenario         :  [Sign_In Functionality]
+TestCase         :  [TC_Sign_In]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input:@onenvops-ui-new.azurewebsites.net:  |  Condition:  | @27-Feb-2023 15:46:03.003
+[DONE]   | Opened Url: onenvops-ui-new.azurewebsites.net:
+
+
+===================================================================================================
+
+Step:2  |  Object:Sign In  |  Action:Click  |  Input:  |  Condition:  | @27-Feb-2023 15:46:54.054
+[FAIL]   | Seems Like the Element [Sign In] is Not Present/Found in the page Try Adding wait or heal it
+
+
+===================================================================================================
+
+Step:3  |  Object:someone@example.com  |  Action:Set  |  Input:TestData0:UserName  |  Condition:  | @27-Feb-2023 15:47:05.005
+[FAIL]   | Driver Chrome Closed / Could not be reached
+
+---------------------------------------------------
+Testcase Name        : Sign_In Functionality:TC_Sign_In
+Executed Steps       : 3
+Passed Steps         : 1
+Failed Steps         : 2
+Time Taken           : 00:01:04
+---------------------------------------------------
+

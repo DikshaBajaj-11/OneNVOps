@@ -1,0 +1,65 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine :  2.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  19
+java.home                                  :  C:\Program Files\Java\jdk-19
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Mon Feb 27 15:50:12 IST 2023
+
+Scenario         :  [Sign_In Functionality]
+TestCase         :  [TC_Sign_In]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input:TestData0:Url  |  Condition:  | @27-Feb-2023 15:50:16.016
+[DONE]   | Opened Url: https://onenvops-ui-new.azurewebsites.net/master-data
+
+
+===================================================================================================
+
+Step:2  |  Object:Sign In  |  Action:Click  |  Input:  |  Condition:  | @27-Feb-2023 15:50:18.018
+[DONE]   | Clicking on Sign In
+
+
+===================================================================================================
+
+Step:3  |  Object:someone@example.com  |  Action:Set  |  Input:TestData0:UserName  |  Condition:  | @27-Feb-2023 15:50:18.018
+[FAIL]   | Seems Like the Element [someone@example.com] is Not Visible or hidden at the moment
+
+
+===================================================================================================
+
+Step:4  |  Object:Next  |  Action:Click  |  Input:  |  Condition:  | @27-Feb-2023 15:50:19.019
+[DONE]   | Clicking on Next
+
+
+===================================================================================================
+
+Step:5  |  Object:Password  |  Action:Set  |  Input:TestData0:Password  |  Condition:  | @27-Feb-2023 15:50:19.019
+[FAIL]   | Seems Like the Element [Password] is Not Visible or hidden at the moment
+
+
+===================================================================================================
+
+Step:6  |  Object:Sign in  |  Action:Click  |  Input:  |  Condition:  | @27-Feb-2023 15:50:19.019
+[DONE]   | Clicking on Sign in
+
+---------------------------------------------------
+Testcase Name        : Sign_In Functionality:TC_Sign_In
+Executed Steps       : 6
+Passed Steps         : 4
+Failed Steps         : 2
+Time Taken           : 00:00:07
+---------------------------------------------------
+

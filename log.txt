@@ -1,0 +1,194 @@
+2023-02-16 15:11:58:02S +0530 [INFO] com.cognizant.cognizantits.ide.main.Main main:Launching Cognizant Intelligent Test Scripter IDE
+2023-02-16 15:11:59:02S +0530 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\lib\cognizant-intelligent-test-scripter-engine-2.0.jar
+2023-02-16 15:12:02:02S +0530 [INFO] com.cognizant.cognizantits.engine.drivers.ChromeEmulators load:Loading ChromeEmulators from file
+2023-02-16 15:12:40:02S +0530 [SEVERE] com.cognizant.cognizantits.datalib.component.utils.FileUtils getRecords:File [E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\Projects\Project Name\TestPlan\NewScenario\NewTestCase.csv] doesn't exist
+2023-02-16 15:12:41:02S +0530 [SEVERE] com.cognizant.cognizantits.datalib.component.utils.FileUtils getRecords:File [E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\Projects\Project Name\TestLab\NewRelease\NewTestSet.csv] doesn't exist
+2023-02-17 18:42:02:02S +0530 [INFO] com.cognizant.cognizantits.ide.main.Main finish:Cognizant Intelligent Test Scripter IDE has been Terminated - [ Total Time : 27:30:17.122 ]
+2023-02-27 14:58:38:02S +0530 [INFO] com.cognizant.cognizantits.ide.main.Main main:Launching Cognizant Intelligent Test Scripter IDE
+2023-02-27 14:58:38:02S +0530 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\lib\cognizant-intelligent-test-scripter-engine-2.0.jar
+2023-02-27 14:58:40:02S +0530 [INFO] com.cognizant.cognizantits.engine.drivers.ChromeEmulators load:Loading ChromeEmulators from file
+2023-02-27 15:03:07:02S +0530 [INFO] com.cognizant.cognizantits.ide.main.Main finish:Cognizant Intelligent Test Scripter IDE has been Terminated - [ Total Time : 00:04:29.065 ]
+2023-02-27 15:03:11:02S +0530 [INFO] com.cognizant.cognizantits.ide.main.Main main:Launching Cognizant Intelligent Test Scripter IDE
+2023-02-27 15:03:12:02S +0530 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\lib\cognizant-intelligent-test-scripter-engine-2.0.jar
+2023-02-27 15:03:13:02S +0530 [INFO] com.cognizant.cognizantits.engine.drivers.ChromeEmulators load:Loading ChromeEmulators from file
+2023-02-27 15:03:19:02S +0530 [INFO] com.cognizant.cognizantits.ide.main.Main finish:Cognizant Intelligent Test Scripter IDE has been Terminated - [ Total Time : 00:00:07.994 ]
+2023-02-27 15:03:50:02S +0530 [INFO] com.cognizant.cognizantits.ide.main.Main main:Launching Cognizant Intelligent Test Scripter IDE
+2023-02-27 15:03:50:02S +0530 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\lib\cognizant-intelligent-test-scripter-engine-2.0.jar
+2023-02-27 15:03:52:02S +0530 [INFO] com.cognizant.cognizantits.engine.drivers.ChromeEmulators load:Loading ChromeEmulators from file
+[AWT-EventQueue-0] INFO org.eclipse.jetty.util.log - Logging initialized @51412ms to org.eclipse.jetty.util.log.Slf4jLog
+jar:file:/E:/One%20NVOps%20-%20CITS%20Automation/cognizant-intelligent-test-scripter-2.0/lib/cognizant-intelligent-test-scripter-extensionconnect-2.0.jar!/localhost
+2023-02-27 15:04:41:02S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2023-02-27 15:04:41:02S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+[SocketServer] INFO org.eclipse.jetty.server.Server - jetty-9.4.43.v20210629; built: 2021-06-30T11:07:22.254Z; git: 526006ecfa3af7f1a27ef3a288e2bef7ea9dd7e8; jvm 19+36-2238
+[SocketServer] INFO org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+[SocketServer] INFO org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+[SocketServer] INFO org.eclipse.jetty.server.session - node0 Scavenging every 600000ms
+[SocketServer] INFO org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@72f3b7aa{/,null,AVAILABLE}
+[SocketServer] INFO org.eclipse.jetty.util.ssl.SslContextFactory - x509=X509@4fcc9164(localhost,h=[localhost],a=[],w=[]) for SslContextFactory@50909dfb[provider=null,keyStore=jar:file:/E:/One%20NVOps%20-%20CITS%20Automation/cognizant-intelligent-test-scripter-2.0/lib/cognizant-intelligent-test-scripter-extensionconnect-2.0.jar!/localhost,trustStore=null]
+[SocketServer] INFO org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@52394660{SSL, (ssl, http/1.1)}{0.0.0.0:8887}
+[SocketServer] INFO org.eclipse.jetty.server.Server - Started @52842ms
+[AWT-EventQueue-0] INFO org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@52394660{SSL, (ssl, http/1.1)}{0.0.0.0:8887}
+[AWT-EventQueue-0] INFO org.eclipse.jetty.server.session - node0 Stopped scavenging
+[AWT-EventQueue-0] INFO org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@72f3b7aa{/,null,STOPPED}
+jar:file:/E:/One%20NVOps%20-%20CITS%20Automation/cognizant-intelligent-test-scripter-2.0/lib/cognizant-intelligent-test-scripter-extensionconnect-2.0.jar!/localhost
+2023-02-27 15:11:18:02S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+jar:file:/E:/One%20NVOps%20-%20CITS%20Automation/cognizant-intelligent-test-scripter-2.0/lib/cognizant-intelligent-test-scripter-extensionconnect-2.0.jar!/localhost
+2023-02-27 15:16:33:02S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2023-02-27 15:16:33:02S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+[SocketServer] INFO org.eclipse.jetty.server.Server - jetty-9.4.43.v20210629; built: 2021-06-30T11:07:22.254Z; git: 526006ecfa3af7f1a27ef3a288e2bef7ea9dd7e8; jvm 19+36-2238
+[SocketServer] INFO org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+[SocketServer] INFO org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+[SocketServer] INFO org.eclipse.jetty.server.session - node0 Scavenging every 600000ms
+[SocketServer] INFO org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@7db2a420{/,null,AVAILABLE}
+[SocketServer] INFO org.eclipse.jetty.util.ssl.SslContextFactory - x509=X509@39c77b24(localhost,h=[localhost],a=[],w=[]) for SslContextFactory@369890eb[provider=null,keyStore=jar:file:/E:/One%20NVOps%20-%20CITS%20Automation/cognizant-intelligent-test-scripter-2.0/lib/cognizant-intelligent-test-scripter-extensionconnect-2.0.jar!/localhost,trustStore=null]
+[SocketServer] INFO org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@20eec3a8{SSL, (ssl, http/1.1)}{0.0.0.0:8887}
+[SocketServer] INFO org.eclipse.jetty.server.Server - Started @763658ms
+[AWT-EventQueue-0] INFO org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@20eec3a8{SSL, (ssl, http/1.1)}{0.0.0.0:8887}
+[AWT-EventQueue-0] INFO org.eclipse.jetty.server.session - node0 Stopped scavenging
+[AWT-EventQueue-0] INFO org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@7db2a420{/,null,STOPPED}
+jar:file:/E:/One%20NVOps%20-%20CITS%20Automation/cognizant-intelligent-test-scripter-2.0/lib/cognizant-intelligent-test-scripter-extensionconnect-2.0.jar!/localhost
+2023-02-27 15:17:30:02S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+jar:file:/E:/One%20NVOps%20-%20CITS%20Automation/cognizant-intelligent-test-scripter-2.0/lib/cognizant-intelligent-test-scripter-extensionconnect-2.0.jar!/localhost
+2023-02-27 15:17:33:02S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2023-02-27 15:17:33:02S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+[SocketServer] INFO org.eclipse.jetty.server.Server - jetty-9.4.43.v20210629; built: 2021-06-30T11:07:22.254Z; git: 526006ecfa3af7f1a27ef3a288e2bef7ea9dd7e8; jvm 19+36-2238
+[SocketServer] INFO org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+[SocketServer] INFO org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+[SocketServer] INFO org.eclipse.jetty.server.session - node0 Scavenging every 600000ms
+[SocketServer] INFO org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@7e676b9{/,null,AVAILABLE}
+[SocketServer] INFO org.eclipse.jetty.util.ssl.SslContextFactory - x509=X509@8f28ee5(localhost,h=[localhost],a=[],w=[]) for SslContextFactory@5d3c7294[provider=null,keyStore=jar:file:/E:/One%20NVOps%20-%20CITS%20Automation/cognizant-intelligent-test-scripter-2.0/lib/cognizant-intelligent-test-scripter-extensionconnect-2.0.jar!/localhost,trustStore=null]
+[SocketServer] INFO org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@7e6d7ff1{SSL, (ssl, http/1.1)}{0.0.0.0:8887}
+[SocketServer] INFO org.eclipse.jetty.server.Server - Started @823448ms
+2023-02-27 15:18:40:02S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Browser[null] - Open - @https://onenvops-ui-new.azurewebsites.net/login
+2023-02-27 15:18:58:02S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Sign In
+2023-02-27 15:18:58:02S +0530 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Sign In] - Click - null
+[AWT-EventQueue-0] INFO org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@7e6d7ff1{SSL, (ssl, http/1.1)}{0.0.0.0:8887}
+[AWT-EventQueue-0] INFO org.eclipse.jetty.server.session - node0 Stopped scavenging
+[AWT-EventQueue-0] INFO org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@7e676b9{/,null,STOPPED}
+jar:file:/E:/One%20NVOps%20-%20CITS%20Automation/cognizant-intelligent-test-scripter-2.0/lib/cognizant-intelligent-test-scripter-extensionconnect-2.0.jar!/localhost
+2023-02-27 15:19:49:02S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+2023-02-27 15:21:29:02S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils renameFile:E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\Projects\Project Name\TestPlan\NewScenario Renamed to Sign_In Functionality
+2023-02-27 15:21:29:02S +0530 [INFO] com.cognizant.cognizantits.datalib.component.Project refactorScenario:Refactoring started for Scenario [NewScenario] to [Sign_In Functionality]
+2023-02-27 15:21:29:02S +0530 [INFO] com.cognizant.cognizantits.datalib.component.Project refactorScenario:Refactoring done for Scenario [NewScenario] to [Sign_In Functionality]
+2023-02-27 15:21:56:02S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils renameFile:E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\Projects\Project Name\TestPlan\Sign_In Functionality\NewTestCase.csv Renamed to TC_Sign_In.csv
+2023-02-27 15:21:56:02S +0530 [INFO] com.cognizant.cognizantits.datalib.component.Project refactorTestCase:Refactoring started for TestCase [NewTestCase] to [TC_Sign_In]
+2023-02-27 15:21:56:02S +0530 [INFO] com.cognizant.cognizantits.datalib.component.Project refactorTestCase:Refactoring done for TestCase [NewTestCase] to [TC_Sign_In]
+jar:file:/E:/One%20NVOps%20-%20CITS%20Automation/cognizant-intelligent-test-scripter-2.0/lib/cognizant-intelligent-test-scripter-extensionconnect-2.0.jar!/localhost
+2023-02-27 15:22:48:02S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startSpy:Launching Server for Spy
+2023-02-27 15:22:48:02S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+[SocketServer] INFO org.eclipse.jetty.server.Server - jetty-9.4.43.v20210629; built: 2021-06-30T11:07:22.254Z; git: 526006ecfa3af7f1a27ef3a288e2bef7ea9dd7e8; jvm 19+36-2238
+[SocketServer] INFO org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+[SocketServer] INFO org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+[SocketServer] INFO org.eclipse.jetty.server.session - node0 Scavenging every 660000ms
+[SocketServer] INFO org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@1e2f608e{/,null,AVAILABLE}
+[SocketServer] INFO org.eclipse.jetty.util.ssl.SslContextFactory - x509=X509@6d5ccb94(localhost,h=[localhost],a=[],w=[]) for SslContextFactory@2258de8[provider=null,keyStore=jar:file:/E:/One%20NVOps%20-%20CITS%20Automation/cognizant-intelligent-test-scripter-2.0/lib/cognizant-intelligent-test-scripter-extensionconnect-2.0.jar!/localhost,trustStore=null]
+[SocketServer] INFO org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@560203{SSL, (ssl, http/1.1)}{0.0.0.0:8887}
+[SocketServer] INFO org.eclipse.jetty.server.Server - Started @1138974ms
+[AWT-EventQueue-0] INFO org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@560203{SSL, (ssl, http/1.1)}{0.0.0.0:8887}
+[AWT-EventQueue-0] INFO org.eclipse.jetty.server.session - node0 Stopped scavenging
+[AWT-EventQueue-0] INFO org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@1e2f608e{/,null,STOPPED}
+2023-02-27 15:28:42:02S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+jar:file:/E:/One%20NVOps%20-%20CITS%20Automation/cognizant-intelligent-test-scripter-2.0/lib/cognizant-intelligent-test-scripter-extensionconnect-2.0.jar!/localhost
+2023-02-27 15:29:07:02S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\Projects\Project Name\ObjectRepository\OneNVopsAngular\Dashboard
+2023-02-27 15:36:26:02S +0530 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\lib\cognizant-intelligent-test-scripter-engine-2.0.jar
+2023-02-27 15:37:50:02S +0530 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\lib\cognizant-intelligent-test-scripter-engine-2.0.jar
+2023-02-27 15:38:44:02S +0530 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\lib\cognizant-intelligent-test-scripter-engine-2.0.jar
+2023-02-27 15:39:51:02S +0530 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\lib\cognizant-intelligent-test-scripter-engine-2.0.jar
+2023-02-27 15:43:03:02S +0530 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\lib\cognizant-intelligent-test-scripter-engine-2.0.jar
+2023-02-27 15:44:02:02S +0530 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\lib\cognizant-intelligent-test-scripter-engine-2.0.jar
+2023-02-27 15:45:03:02S +0530 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\lib\cognizant-intelligent-test-scripter-engine-2.0.jar
+2023-02-27 15:45:34:02S +0530 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\lib\cognizant-intelligent-test-scripter-engine-2.0.jar
+2023-02-27 15:46:01:02S +0530 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\lib\cognizant-intelligent-test-scripter-engine-2.0.jar
+2023-02-27 15:47:29:02S +0530 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\lib\cognizant-intelligent-test-scripter-engine-2.0.jar
+2023-02-27 15:48:33:02S +0530 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\lib\cognizant-intelligent-test-scripter-engine-2.0.jar
+2023-02-27 15:49:47:02S +0530 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\lib\cognizant-intelligent-test-scripter-engine-2.0.jar
+2023-02-27 15:50:12:02S +0530 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\lib\cognizant-intelligent-test-scripter-engine-2.0.jar
+2023-02-27 15:50:25:02S +0530 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\lib\cognizant-intelligent-test-scripter-engine-2.0.jar
+2023-02-27 15:51:00:02S +0530 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\lib\cognizant-intelligent-test-scripter-engine-2.0.jar
+2023-02-27 15:51:22:02S +0530 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\lib\cognizant-intelligent-test-scripter-engine-2.0.jar
+2023-02-27 15:56:14:02S +0530 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\lib\cognizant-intelligent-test-scripter-engine-2.0.jar
+2023-02-27 15:56:31:02S +0530 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\lib\cognizant-intelligent-test-scripter-engine-2.0.jar
+2023-02-27 15:56:46:02S +0530 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\lib\cognizant-intelligent-test-scripter-engine-2.0.jar
+2023-02-27 15:58:11:02S +0530 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\lib\cognizant-intelligent-test-scripter-engine-2.0.jar
+2023-02-27 15:59:09:02S +0530 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\lib\cognizant-intelligent-test-scripter-engine-2.0.jar
+2023-02-27 16:00:18:02S +0530 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\lib\cognizant-intelligent-test-scripter-engine-2.0.jar
+2023-02-27 16:01:19:02S +0530 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\lib\cognizant-intelligent-test-scripter-engine-2.0.jar
+2023-02-27 16:02:20:02S +0530 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\lib\cognizant-intelligent-test-scripter-engine-2.0.jar
+2023-02-27 16:03:01:02S +0530 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\lib\cognizant-intelligent-test-scripter-engine-2.0.jar
+2023-02-27 16:14:41:02S +0530 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\lib\cognizant-intelligent-test-scripter-engine-2.0.jar
+2023-02-27 16:15:11:02S +0530 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\lib\cognizant-intelligent-test-scripter-engine-2.0.jar
+2023-02-27 16:16:10:02S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\Projects\Project Name\ObjectRepository\OneNVopsAngular\Sign In
+2023-02-27 16:16:19:02S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\Projects\Project Name\ObjectRepository\Sign\Sign In Copy(1)\Sign In
+2023-02-27 16:16:19:02S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils deleteFile:Deleting E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\Projects\Project Name\ObjectRepository\Sign\Sign In Copy(1)
+2023-02-27 16:16:32:02S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils renameFile:E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\Projects\Project Name\ObjectRepository\OneNVopsAngular\Sign In Copy(1) Renamed to Sign In
+2023-02-27 16:16:32:02S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils renameFile:E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\Projects\Project Name\ObjectRepository\OneNVopsAngular\Sign In\Sign In Copy(1) Renamed to Sign In
+2023-02-27 16:17:01:02S +0530 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\lib\cognizant-intelligent-test-scripter-engine-2.0.jar
+2023-02-27 16:34:03:02S +0530 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\lib\cognizant-intelligent-test-scripter-engine-2.0.jar
+[AWT-EventQueue-0] INFO org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@5fbeb479{SSL, (ssl, http/1.1)}{0.0.0.0:8887}
+[AWT-EventQueue-0] INFO org.eclipse.jetty.server.session - node0 Stopped scavenging
+[AWT-EventQueue-0] INFO org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@2b1331a9{/,null,STOPPED}
+2023-02-27 16:34:22:02S +0530 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+jar:file:/E:/One%20NVOps%20-%20CITS%20Automation/cognizant-intelligent-test-scripter-2.0/lib/cognizant-intelligent-test-scripter-extensionconnect-2.0.jar!/localhost
+2023-02-27 16:34:26:02S +0530 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\lib\cognizant-intelligent-test-scripter-engine-2.0.jar
+Exception in thread "AWT-EventQueue-0" java.lang.NullPointerException: Cannot invoke "com.cognizant.cognizantits.datalib.or.common.ORPageInf.getTreePath()" because the return value of "com.cognizant.cognizantits.ide.main.mainui.components.testdesign.or.ObjectTree.getSelectedPage()" is null
+	at com.cognizant.cognizantits.ide.main.mainui.components.testdesign.or.ObjectTree.actionPerformed(ObjectTree.java:196)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2313)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.AbstractButton.doClick(AbstractButton.java:374)
+	at java.desktop/javax.swing.plaf.basic.BasicMenuItemUI.doClick(BasicMenuItemUI.java:1029)
+	at java.desktop/javax.swing.plaf.basic.BasicMenuItemUI$Handler.mouseReleased(BasicMenuItemUI.java:1073)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6620)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3398)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6385)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4995)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4827)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4827)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2023-02-27 17:32:05:02S +0530 [SEVERE] com.cognizant.cognizantits.datalib.component.utils.FileUtils getRecords:File [E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\Projects\Project Name\TestPlan\NewScenario\NewTestCase.csv] doesn't exist
+2023-02-27 17:33:16:02S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils renameFile:E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\Projects\Project Name\TestPlan\NewScenario\NewTestCase.csv Renamed to Pause.csv
+2023-02-27 17:33:16:02S +0530 [INFO] com.cognizant.cognizantits.datalib.component.Project refactorTestCase:Refactoring started for TestCase [NewTestCase] to [Pause]
+2023-02-27 17:33:16:02S +0530 [INFO] com.cognizant.cognizantits.datalib.component.Project refactorTestCase:Refactoring done for TestCase [NewTestCase] to [Pause]
+2023-02-27 17:33:36:02S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils renameFile:E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\Projects\Project Name\TestPlan\NewScenario\Pause.csv Renamed to Browser_Pause.csv
+2023-02-27 17:33:36:02S +0530 [INFO] com.cognizant.cognizantits.datalib.component.Project refactorTestCase:Refactoring started for TestCase [Pause] to [Browser_Pause]
+2023-02-27 17:33:36:02S +0530 [INFO] com.cognizant.cognizantits.datalib.component.Project refactorTestCase:Refactoring done for TestCase [Pause] to [Browser_Pause]
+2023-02-27 17:34:37:02S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils renameFile:E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\Projects\Project Name\TestPlan\NewScenario Renamed to Base
+2023-02-27 17:34:37:02S +0530 [INFO] com.cognizant.cognizantits.datalib.component.Project refactorScenario:Refactoring started for Scenario [NewScenario] to [Base]
+2023-02-27 17:34:37:02S +0530 [INFO] com.cognizant.cognizantits.datalib.component.Project refactorScenario:Refactoring done for Scenario [NewScenario] to [Base]
+2023-02-27 17:35:06:02S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils renameFile:E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\Projects\Project Name\ObjectRepository\Sign\someone@example.com Renamed to UserName
+2023-02-27 17:35:06:02S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils renameFile:E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\Projects\Project Name\ObjectRepository\Sign\UserName\someone@example.com Renamed to UserName
+2023-02-27 17:46:17:02S +0530 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\lib\cognizant-intelligent-test-scripter-engine-2.0.jar
+2023-02-27 18:19:40:02S +0530 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\lib\cognizant-intelligent-test-scripter-engine-2.0.jar
+2023-02-27 19:19:59:02S +0530 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\lib\cognizant-intelligent-test-scripter-engine-2.0.jar
+2023-02-28 17:34:05:02S +0530 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\lib\cognizant-intelligent-test-scripter-engine-2.0.jar
+2023-03-01 15:40:15:03S +0530 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\lib\cognizant-intelligent-test-scripter-engine-2.0.jar
+2023-03-01 15:45:46:03S +0530 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\lib\cognizant-intelligent-test-scripter-engine-2.0.jar
+2023-03-01 16:29:26:03S +0530 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils renameFile:E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\Projects\Project Name\TestPlan\NewScenario Renamed to Employee
+2023-03-01 16:29:26:03S +0530 [INFO] com.cognizant.cognizantits.datalib.component.Project refactorScenario:Refactoring started for Scenario [NewScenario] to [Employee]
+2023-03-01 16:29:26:03S +0530 [INFO] com.cognizant.cognizantits.datalib.component.Project refactorScenario:Refactoring done for Scenario [NewScenario] to [Employee]
+2023-03-01 16:29:29:03S +0530 [SEVERE] com.cognizant.cognizantits.datalib.component.utils.FileUtils getRecords:File [E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\Projects\Project Name\TestPlan\Employee\NewTestCase.csv] doesn't exist
+2023-03-01 17:48:52:03S +0530 [INFO] com.cognizant.cognizantits.ide.main.Main finish:Cognizant Intelligent Test Scripter IDE has been Terminated - [ Total Time : 50:45:22.236 ]

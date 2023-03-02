@@ -1,0 +1,141 @@
+<Root type="OR" ref="Project Name">
+  <Page title="OneNVopsAngular" ref="OneNVopsAngular">
+    <ObjectGroup ref="Sign In">
+      <Object frame="" ref="Sign In">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//button[@type='submit']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/app-root/div/div/app-login/div/div/div[2]/div/form/button" ref="xpath" pref="6"/>
+        <Property value="col-md-12 mt-4 btn btn-sm btn-orange fw-semibold" ref="class" pref="7"/>
+        <Property value="html > body > #wrapper > app-root > div.main-box > div.p-0 > app-login > div.bg-image > div.row.mx-0 bg-black-50 > div.hero-static.col-md-6 col-xl-4 d-flex align-items-center bg-body-extra-light > div.content.content-full > form.js-validation-signin.px-4 ng-untouched ng-pristine ng-valid > button.col-md-12.mt-4 btn btn-sm btn-orange fw-semibold" ref="css" pref="8"/>
+        <Property value="submit" ref="type" pref="9"/>
+        <Property value="&lt;button _ngcontent-soq-c50=&quot;&quot; type=&quot;submit&quot; class=&quot;col-md-12 mt-4 btn btn-sm btn-orange fw-semibold&quot;> Sign In &lt;/button>" ref="outerHTML" pref="10"/>
+        <Property value="button" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="Sign in to your account" ref="Sign">
+    <ObjectGroup ref="UserName">
+      <Object frame="" ref="UserName">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@type='email']" ref="relative_xpath" pref="5"/>
+        <Property value="" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="" ref="type" pref="9"/>
+        <Property value="&lt;input type=&quot;email&quot; name=&quot;loginfmt&quot; id=&quot;i0116&quot; maxlength=&quot;113&quot; class=&quot;form-control ltr_override input ext-input text-box ext-text-box&quot; aria-required=&quot;true&quot; data-report-event=&quot;Signin_Email_Phone_Skype&quot; data-report-trigger=&quot;click&quot; data-report-value=&quot;Email_Phone_Skype_Entry&quot; data-bind=&quot;&#xa;                    attr: { lang: svr.fApplyAsciiRegexOnInput ? null : 'en' },&#xa;                    externalCss: {&#xa;                        'input': true,&#xa;                        'text-box': true,&#xa;                        'has-error': usernameTextbox.error },&#xa;                    ariaLabel: tenantBranding.unsafe_userIdLabel || str['CT_PWD_STR_Username_AriaLabel'],&#xa;                    ariaDescribedBy: 'loginHeader' + (pageDescription &amp;amp;&amp;amp; !svr.fHideLoginDesc ? ' loginDescription usernameError' : ' usernameError'),&#xa;                    textInput: usernameTextbox.value,&#xa;                    hasFocusEx: usernameTextbox.focused,&#xa;                    placeholder: $placeholderText&quot; aria-label=&quot;someone@example.com&quot; aria-describedby=&quot;loginHeader usernameError&quot; placeholder=&quot;someone@example.com&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Next">
+      <Object frame="" ref="Next">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="idSIButton9" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@data-report-value='Submit']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/form/div/div/div[2]/div/div/div/div/div/div/div[3]/div/div/div/div[4]/div/div/div/div[2]/input" ref="xpath" pref="6"/>
+        <Property value="win-button button_primary button ext-button primary ext-primary" ref="class" pref="7"/>
+        <Property value="#idSIButton9" ref="css" pref="8"/>
+        <Property value="submit" ref="type" pref="9"/>
+        <Property value="&lt;input type=&quot;submit&quot; id=&quot;idSIButton9&quot; class=&quot;win-button button_primary button ext-button primary ext-primary&quot; data-report-event=&quot;Signin_Submit&quot; data-report-trigger=&quot;click&quot; data-report-value=&quot;Submit&quot; data-bind=&quot;&#xa;                attr: primaryButtonAttributes,&#xa;                externalCss: {&#xa;                    'button': true,&#xa;                    'primary': true },&#xa;                value: primaryButtonText() || str['CT_PWD_STR_SignIn_Button_Next'],&#xa;                hasFocus: focusOnPrimaryButton,&#xa;                click: primaryButton_onClick,&#xa;                enable: isPrimaryButtonEnabled,&#xa;                visible: isPrimaryButtonVisible,&#xa;                preventTabbing: primaryButtonPreventTabbing&quot; value=&quot;Next&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Password">
+      <Object frame="" ref="Password">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@type='password']" ref="relative_xpath" pref="5"/>
+        <Property value="" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="" ref="css" pref="8"/>
+        <Property value="" ref="type" pref="9"/>
+        <Property value="&lt;input name=&quot;passwd&quot; type=&quot;password&quot; id=&quot;i0118&quot; autocomplete=&quot;off&quot; class=&quot;form-control input ext-input text-box ext-text-box&quot; aria-required=&quot;true&quot; data-bind=&quot;&#xa;                textInput: passwordTextbox.value,&#xa;                ariaDescribedBy: [&#xa;                    'loginHeader passwordError',&#xa;                    showCredViewBrandingDesc ? 'credViewBrandingDesc' : '',&#xa;                    unsafe_pageDescription ? 'passwordDesc' : ''].join(' '),&#xa;                hasFocusEx: passwordTextbox.focused() &amp;amp;&amp;amp; !showPassword(),&#xa;                placeholder: $placeholderText,&#xa;                ariaLabel: unsafe_passwordAriaLabel,&#xa;                moveOffScreen: showPassword,&#xa;                externalCss: {&#xa;                    'input': true,&#xa;                    'text-box': true,&#xa;                    'has-error': passwordTextbox.error }&quot; aria-describedby=&quot;loginHeader passwordError  &quot; placeholder=&quot;Password&quot; aria-label=&quot;Enter the password for diksha.bajaj@newvision-software.com&quot; tabindex=&quot;0&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Sign in">
+      <Object frame="" ref="Sign in">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="idSIButton9" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@data-report-value='Submit']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/form/div/div/div[2]/div/div/div/div/div/div/div[3]/div/div[2]/div/div[4]/div[2]/div/div/div/div/input" ref="xpath" pref="6"/>
+        <Property value="win-button button_primary button ext-button primary ext-primary" ref="class" pref="7"/>
+        <Property value="#idSIButton9" ref="css" pref="8"/>
+        <Property value="submit" ref="type" pref="9"/>
+        <Property value="&lt;input type=&quot;submit&quot; id=&quot;idSIButton9&quot; class=&quot;win-button button_primary button ext-button primary ext-primary&quot; data-report-event=&quot;Signin_Submit&quot; data-report-trigger=&quot;click&quot; data-report-value=&quot;Submit&quot; data-bind=&quot;&#xa;                attr: primaryButtonAttributes,&#xa;                externalCss: {&#xa;                    'button': true,&#xa;                    'primary': true },&#xa;                value: primaryButtonText() || str['CT_PWD_STR_SignIn_Button_Next'],&#xa;                hasFocus: focusOnPrimaryButton,&#xa;                click: primaryButton_onClick,&#xa;                enable: isPrimaryButtonEnabled,&#xa;                visible: isPrimaryButtonVisible,&#xa;                preventTabbing: primaryButtonPreventTabbing&quot; value=&quot;Sign in&quot;>" ref="outerHTML" pref="10"/>
+        <Property value="input" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Text +XX XXXXXXXX18‎">
+      <Object frame="" ref="Text +XX XXXXXXXX18‎">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="/body/div/form/div/div/div[2]/div/div/div/div/div/div/div[2]/div[2]/div/div[2]/div/div[2]/div/div/div/div/div[2]" ref="relative_xpath" pref="5"/>
+        <Property value="(/html/body/div/form/div/div/div[2]/div/div/div/div/div/div/div[2]/div[2]/div/div[2]/div/div[2]/div/div/div/div/div[2])[1]" ref="xpath" pref="6"/>
+        <Property value="table-cell text-left content" ref="class" pref="7"/>
+        <Property value="html > body.cb > div > form[name=&quot;form&quot;] > div > #lightboxTemplateContainer > div.outer > div.template-section.main-section > div.middle.ext-middle > div.full-height > div.flex-column > div.win-scroll > #lightbox > div:nth-of-type(1) > div:nth-of-type(1) > div > div.pagination-view.has-identity-banner animate slide-in-next > div > #idDiv_SAOTCS_Proofs_Section > #idDiv_SAOTCS_Proofs > div.row.tile > div.table > div.table-row > div.table-cell.text-left content" ref="css" pref="8"/>
+        <Property value="div" ref="type" pref="9"/>
+        <Property value="" ref="outerHTML" pref="10"/>
+        <Property value="" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Code">
+      <Object frame="" ref="Code">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="otc" ref="name" pref="2"/>
+        <Property value="idTxtBx_SAOTCC_OTC" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@placeholder='Code']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/form/div/div/div[2]/div/div/div/div/div/div/div[2]/div[2]/div/div[2]/div/div[3]/div/div[3]/div/input" ref="xpath" pref="6"/>
+        <Property value="form-control" ref="class" pref="7"/>
+        <Property value="#idTxtBx_SAOTCC_OTC" ref="css" pref="8"/>
+        <Property value="tel" ref="type" pref="9"/>
+        <Property value="" ref="outerHTML" pref="10"/>
+        <Property value="" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Verify">
+      <Object frame="" ref="Verify">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="idSubmit_SAOTCC_Continue" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="//input[@data-report-value='Submit']" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/form/div/div/div[2]/div/div/div/div/div/div/div[2]/div[2]/div/div[2]/div/div[6]/div/div/div/div/input" ref="xpath" pref="6"/>
+        <Property value="win-button button_primary button ext-button primary ext-primary" ref="class" pref="7"/>
+        <Property value="#idSubmit_SAOTCC_Continue" ref="css" pref="8"/>
+        <Property value="submit" ref="type" pref="9"/>
+        <Property value="" ref="outerHTML" pref="10"/>
+        <Property value="" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Dashboard">
+      <Object frame="" ref="Dashboard">
+        <Property value="" ref="NLP_locator" pref="1"/>
+        <Property value="" ref="name" pref="2"/>
+        <Property value="" ref="id" pref="3"/>
+        <Property value="" ref="link_text" pref="4"/>
+        <Property value="(//*[normalize-space(text())='Dashboard'])[2]" ref="relative_xpath" pref="5"/>
+        <Property value="/html/body/div/app-root/div/div/app-dashboard/div/div/div/div/div/h2" ref="xpath" pref="6"/>
+        <Property value="" ref="class" pref="7"/>
+        <Property value="html > body > #wrapper > app-root > div.main-box > div.p-0 > app-dashboard > #main-content > div.container-fluid > div.block-header > div.row > div.col-lg-5.col-md-8 col-sm-12 > h2" ref="css" pref="8"/>
+        <Property value="h2" ref="type" pref="9"/>
+        <Property value="" ref="outerHTML" pref="10"/>
+        <Property value="" ref="tagName" pref="11"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+</Root>

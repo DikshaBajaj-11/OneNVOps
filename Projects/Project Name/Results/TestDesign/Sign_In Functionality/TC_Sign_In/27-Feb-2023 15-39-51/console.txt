@@ -1,0 +1,87 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 2.0
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 19
+java.home            : C:\Program Files\Java\jdk-19
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Mon Feb 27 15:39:51 IST 2023
+Loading Browser Profile
+Loading RunManager
+[Scenario:Sign_In Functionality] [TestCase: TC_Sign_In] [Description: Test Run] [Browser: Firefox] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+[Thread-44] WARN com.cognizant.cognizantits.engine.core.TMIntegration - TM integration disabled for testcases running via design mode
+ApiLink not available!!
+Run Manager true
+Continue Execution true
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Firefox
+Launching Local Driver
+2023-02-27 15:39:51:02S +0530 [SEVERE] com.cognizant.cognizantits.engine.core.Task onError:Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DIKSHAB', ip: '192.168.62.151', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19'
+Driver info: driver.version: SeleniumDriver
+org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DIKSHAB', ip: '192.168.62.151', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19'
+Driver info: driver.version: SeleniumDriver
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:100)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.openqa.selenium.firefox.FirefoxOptions.getBinary(FirefoxOptions.java:216)
+	at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:187)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:147)
+	at com.cognizant.cognizantits.engine.drivers.WebDriverFactory.create(WebDriverFactory.java:180)
+	at com.cognizant.cognizantits.engine.drivers.WebDriverFactory.create(WebDriverFactory.java:168)
+	at com.cognizant.cognizantits.engine.drivers.WebDriverFactory.create(WebDriverFactory.java:158)
+	at com.cognizant.cognizantits.engine.drivers.SeleniumDriver.launchDriver(SeleniumDriver.java:66)
+	at com.cognizant.cognizantits.engine.core.Task.launchBrowser(Task.java:155)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:125)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+
+[DEBUG]   | Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DIKSHAB', ip: '192.168.62.151', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19'
+Driver info: driver.version: SeleniumDriver
+
+===================================================================================================
+
+2023-02-27 15:39:51:02S +0530 [SEVERE] com.cognizant.cognizantits.engine.core.Task run:Cannot read field "StepNum" because the return value of "com.cognizant.cognizantits.engine.reporting.TestCaseReport.getStep()" is null
+java.lang.NullPointerException: Cannot read field "StepNum" because the return value of "com.cognizant.cognizantits.engine.reporting.TestCaseReport.getStep()" is null
+	at com.cognizant.cognizantits.engine.reporting.TestCaseReport.updateTestLog(TestCaseReport.java:188)
+	at com.cognizant.cognizantits.engine.reporting.TestCaseReport.updateTestLog(TestCaseReport.java:159)
+	at com.cognizant.cognizantits.engine.core.Task.onError(Task.java:192)
+	at com.cognizant.cognizantits.engine.core.Task.onError(Task.java:180)
+	at com.cognizant.cognizantits.engine.core.Task.runIteration(Task.java:137)
+	at com.cognizant.cognizantits.engine.core.Task.run(Task.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+
+
+---------------------------------------------------
+Testcase Name        : Sign_In Functionality:TC_Sign_In
+Executed Steps       : 1
+Passed Steps         : 0
+Failed Steps         : 0
+Time Taken           : 00:00:00
+-----------------------------------------------------
+
+Run Finished on Mon Feb 27 15:39:51 IST 2023
+-----------------------------------------------------
+ExecutionDate        : 27-Feb-2023 15-39-51
+Executed TestCases   : 1
+Passed TestCases     : 0
+Failed TestCases     : 1
+Time Taken           : 00:00:00
+ReportPath           : file:///E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\Projects\Project Name\Results\TestDesign\Sign_In Functionality\TC_Sign_In\27-Feb-2023 15-39-51\summary.html
+-----------------------------------------------------
+[Thread-44] INFO com.cognizant.cognizantits.engine.support.DesktopApi - Trying to Open - E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\Projects\Project Name\Results\TestDesign\Sign_In Functionality\TC_Sign_In\27-Feb-2023 15-39-51\summary.html
+[Thread-44] INFO com.cognizant.cognizantits.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [E:\One NVOps - CITS Automation\cognizant-intelligent-test-scripter-2.0\Projects\Project Name\Results\TestDesign\Sign_In Functionality\TC_Sign_In\27-Feb-2023 15-39-51\summary.html]

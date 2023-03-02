@@ -1,0 +1,77 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine :  2.0
+java.runtime.name                          :  Java(TM) SE Runtime Environment
+java.version                               :  19
+java.home                                  :  C:\Program Files\Java\jdk-19
+os.name                                    :  Windows 10
+os.arch                                    :  amd64
+os.version                                 :  10.0
+file.encoding                              :  UTF-8
+========================
+Run Started on Wed Mar 01 15:40:15 IST 2023
+
+Scenario         :  [Sign_In Functionality]
+TestCase         :  [TC_Sign_In]
+Browser          :  [Chrome]
+Browser Version  :  [null]
+Platform         :  [null]
+----------------------------------------------------------
+Initializing Report
+Running Iteration :  [Single]
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:Open  |  Input:Login_Data:Url  |  Condition:  | @01-Mar-2023 15:40:39.039
+[DONE]   | Opened Url: https://onenvops-ui-new.azurewebsites.net/master-data
+
+
+===================================================================================================
+
+Step:2  |  Object:Sign In  |  Action:Click  |  Input:  |  Condition:  | @01-Mar-2023 15:41:31.031
+[FAIL]   | Seems Like the Element [Sign In] is Not Present/Found in the page Try Adding wait or heal it
+
+
+===================================================================================================
+
+Step:3  |  Object:UserName  |  Action:waitForElementToBePresent  |  Input:  |  Condition:  | @01-Mar-2023 15:41:43.043
+[FAIL]   | Seems Like the Element [] is Not Present/Found in the page Try Adding wait or heal it
+
+
+===================================================================================================
+
+Step:4  |  Object:UserName  |  Action:Set  |  Input:Login_Data:UserName  |  Condition:  | @01-Mar-2023 15:41:55.055
+[FAIL]   | Seems Like the Element [UserName] is Not Present/Found in the page Try Adding wait or heal it
+
+
+===================================================================================================
+
+Step:5  |  Object:Next  |  Action:Click  |  Input:  |  Condition:  | @01-Mar-2023 15:42:59.059
+[FAIL]   | Seems Like the Element [Next] is Not Present/Found in the page Try Adding wait or heal it
+
+
+===================================================================================================
+
+Step:1  |  Object:Browser  |  Action:pause  |  Input:Login_Data:PauseTime  |  Condition:  | @01-Mar-2023 15:43:02.002
+[DONE]   | Thread sleep for '2000
+
+
+===================================================================================================
+
+Step:8  |  Object:Password  |  Action:Set  |  Input:Login_Data:Password  |  Condition:  | @01-Mar-2023 15:43:13.013
+[FAIL]   | Seems Like the Element [Password] is Not Present/Found in the page Try Adding wait or heal it
+
+
+===================================================================================================
+
+Step:9  |  Object:Sign in  |  Action:Click  |  Input:  |  Condition:  | @01-Mar-2023 15:44:16.016
+[FAIL]   | Seems Like the Element [Sign in] is Not Present/Found in the page Try Adding wait or heal it
+
+---------------------------------------------------
+Testcase Name        : Sign_In Functionality:TC_Sign_In
+Executed Steps       : 8
+Passed Steps         : 2
+Failed Steps         : 6
+Time Taken           : 00:04:03
+---------------------------------------------------
+
